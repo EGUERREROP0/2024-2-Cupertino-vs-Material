@@ -1,0 +1,28 @@
+name: flutter_application_1
+description: "A new Flutter project."
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Paquete para íconos estilo iOS
+  cupertino_icons: ^1.0.8
+
+  # Paquete para manejar fechas en diferentes formatos
+  intl: ^0.18.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # Reglas de lint recomendadas
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
